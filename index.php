@@ -7,10 +7,12 @@
   <body>
     <p>
 <?php
+/*Définition de la variable*/
   $age = 26;
+  /*Condition si variable est sup à 18*/
   if($age >= 18){
     echo 'vous êtes majeur';
-  } else {
+  } else {/*Autre condition si la variable n'est pas sup à 18*/
     echo 'vous êtes mineur';
   }
  ?>
